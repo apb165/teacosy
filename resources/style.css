@@ -92,10 +92,17 @@ main {
     margin-bottom: 10px;
 }
 
-#images  div{
-    display: inline-block;
+.top-row {
+    width: 1000px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.center-image {
-    margin: 0 15px;
+.bottom-row {
+    width: 650px;
+    display: flex;
+    justify-content:space-between;
+    margin: 10px auto;
 }
+
