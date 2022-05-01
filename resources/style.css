@@ -92,13 +92,6 @@ main {
     margin-bottom: 10px;
 }
 
-/* #images {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-} */
-
 #images  div{
     display: inline-block;
 }
