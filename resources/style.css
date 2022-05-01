@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    opacity: 0.9;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
     background-color: #000;
     font-size: 22px;
     color: seashell;
-    opacity: 0.9;
 }
 
 header {
@@ -76,6 +76,8 @@ main {
     background-color: #000;
 }
 
+/* tea of month section */
+
 #tea-of-month {
     width: 1000px;
     margin: 50px auto;
@@ -104,5 +106,45 @@ main {
     display: flex;
     justify-content:space-between;
     margin: 10px auto;
+}
+
+/* locations section */
+
+#locations-section {
+    background: url(./images/img-locations-background.jpg) no-repeat center;
+    background-size: 98%;
+    margin: 0 20px;
+    height: 575px;
+    border: 1px solid green;
+}
+
+
+.locations {
+    width: 2000px;
+    height: 400px;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+
+.cafe-locations {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-content: flex-end;
+    border: 10px dotted yellow;
+}
+
+.cafe {
+    width: 300px;
+    height: 250px;
+    border: 1px solid blue;
+    background-color: #000;
+    opacity: 1;
+    margin: 0 auto;
 }
 
